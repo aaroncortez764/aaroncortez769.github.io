@@ -9,9 +9,29 @@
 .post-it {
     background-color:gold;
     display:block;
-    width: 200px;
-    height:200px;
+    width: 150px;
+    height:150px;
     margin:24px;
     padding:24px;
     font-family:sans-serif;
+}
+.green-post {
+    background-color: green;
+    display:block;
+    width:150px;
+    height:150px;
+    margin: 30px;
+    padding: 24px;
+    font-family: 'Courier New', Courier, monospace;
+    color:white;
+}
+.blue-post {
+    background-color: aqua;
+    display: block;
+    width: 150px;
+    height:150px;
+    margin: 30px;
+    padding: 24;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, 
+    sans-serif;
 }
