@@ -7,18 +7,145 @@ body {
     font-family: sans-serif;
 }
 #color-palette-1 {
-    font-family:sans-serif;
+    font-family: sans-serif;
     text-align: center;
 }
-#color-1 {
+#dark-purple {
     text-align: center;
     background-color: #331832;
     color: white;
     font-size: 24px;
+    padding: 24px;
 }
-#color-2 {
+
+#rasberry {
     text-align: center;
     font-size: 24px;
     background-color: #d81e5b;
-    color:white
+    color: white;
+    padding: 24px;   
+}
+
+#vermilion {
+    text-align: center;
+    font-size: 24px;
+    background-color: #f0544f;
+    color: white;
+    padding: 24px;
+}
+
+#color-palette-2 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#office-green {
+    text-align: center;
+    font-size: 24px;
+    background-color: #157f1f;
+    color: white;
+    padding: 24px;
+}
+
+#emerald {
+    text-align: center;
+    font-size: 24px;
+    background-color: #4cb963;
+    color: white;
+    padding: 24px;
+}
+
+#yellow {
+    text-align: center;
+    font-size: 24px;
+    background-color: #f8ff21;
+    color: black;
+    padding: 24px;
+}
+
+#color-palette-3 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#sky-blue {
+    text-align: center;
+    font-size: 24px;
+    background-color: #78c0e0;
+    color: black;
+    padding: 24px;
+}
+
+#celestial-blue {
+    text-align: center;
+    font-size: 24px;
+    background-color: #449dd1;
+    color: black;
+    padding: 24px;
+}
+
+#persian-blue {
+    text-align: center;
+    font-size: 24px;
+    background-color: #192bc2;
+    color: white;
+    padding: 24px;
+}
+
+#color-palette-4 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#tigers-eye {
+    text-align: center;
+    font-size: 24px;
+    background-color: #b1740f;
+    color: white;
+    padding: 24px;
+}
+
+#jasmine {
+    text-align: center;
+    font-size: 24px;
+    background-color: #ffd07b;
+    color: black;
+    padding: 24px;
+}
+
+#xanthous {
+    text-align: center;
+    font-size: 24px;
+    background-color: #fdb833;
+    color: black;
+    padding: 24px;
+}
+
+#color-palette-5 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#engineering-orange {
+    text-align: center;
+    font-size: 24px;
+    background-color: #c2130d;
+    color: white;
+    padding: 24px;
+}
+
+#old-gold {
+    text-align: center;
+    font-size: 24px;
+    background-color: #c6b606;
+    color: black;
+    padding: 24px;
+}
+
+#rosewood {
+    text-align: center;
+    font-size: 24px;
+    background-color: #640d14;
+    color: white;
+    padding: 24px;
 }
