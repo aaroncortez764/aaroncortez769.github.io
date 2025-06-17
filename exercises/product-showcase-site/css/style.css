@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.aw-root-beer {
+    background-color: rgb(64, 17, 17);
+    color: white;
+    
+}
+
+.center-column {
+    text-align: center;
+    margin: 0px auto;
+    width: 600px;   
+}
+
