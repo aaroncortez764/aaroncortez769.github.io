@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#three-columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
+}
+
+#column-1 {
+   padding: 10px;
+   
+   
+}
+
+#column-2 {
+   padding: 10px;
+   
+}
+
+#column-3 {
+   padding: 10px;
+   
+}
+
+#buy-it-now {
+    border: 2px solid;
+    text-align: center;
+    border-radius: 40px;
+    background-color: blue;
+    color: white;
+    margin: 10px;
+    
+}
+#add-to-cart {
+    border: 2px solid;
+    text-align: center;
+    border-radius: 40px;
+    color: blue;
+    margin: 10px;
+}
+
+#add-to-watchlist {
+    border: 2px solid;
+    text-align: center;
+    border-radius: 40px;
+    color: blue;
+    margin: 10px;
+}
