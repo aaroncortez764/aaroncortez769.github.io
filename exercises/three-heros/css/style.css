@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/sunset-unsplash.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 100px;
+}
+
+#hero-1 .hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-1 h1 {
+    font-size: 9vw;
+}
+
+#hero-1 h3 {
+    font-size: 4vw;
+}
+
+#hero-1 a {
+    background-color: white;
+    display: block;
+    font-size: 3vw;
+    text-align: center;
+    left: 15%;
+}
