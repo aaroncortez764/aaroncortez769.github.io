@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/water13-unsplash.jpg");
+    height: 100px;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+    margin-bottom: 600px;
+}
+
+#hero-content {
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+
+#hero-1 h1 {
+    font-size: 6vw;
+}
