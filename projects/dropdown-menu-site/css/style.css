@@ -6,3 +6,174 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+#navbar {
+    background: linear-gradient(to bottom, red, orange);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    background: linear-gradient(to top, darkred, black);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: darkorange;
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: red;
+}
+
+#hero-1 {
+    background-image: url("../images/Fox.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+    margin-bottom: 100px;
+    z-index: -1;
+}
+
+#hero-1 h1 {
+    font-size: 120px; 
+    position: absolute;
+    left: 20%;
+}
+
+#hero-1 h2 {
+    font-size: 60px;
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+}
+
+#hero-1 h4 {
+    font-size: 24px;
+    position: absolute;
+    left: 10%;
+    bottom: 47%;
+}
+
+#hero-1 p {
+    font-size: 24px;
+    position: absolute;
+    left: 10%;
+    font-weight: bold;
+}
+
+#layout-1 {
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    background-color: yellow;
+    height: 200vh;
+    padding: 24px;
+}
+
+#layout-1 img {
+    max-width: 600px;
+    border: solid;
+    border-radius: 40px;
+    margin: 0px auto;
+}
+
+#layout-1 p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.center-column {
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+}
+
+#layout-2 {
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    background-color: grey;
+    height: 200vh;
+    padding: 24px;
+    color: blue;
+}
+
+#layout-2 img {
+    max-width: 600px;
+    border: solid;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+
+#layout-2 p {
+    text-align: center;
+}
+
+#layout-3 {
+    text-align: center;
+    font-size: 30px;
+    font-style: bold;
+    background-color: green;
+    height: 200vh;
+    padding: 24px;
+    color: darkred;
+}
+
+#layout-3 img {
+    max-width: 600px;
+    border: solid;
+    border-radius: 50px;
+    margin: 0px auto;
+}
+
+#layout-3 p {
+    text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+    #navbar {
+        flex-direction: column;
+    }
+}
