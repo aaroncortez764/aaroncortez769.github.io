@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, purple, gold);
+    display: flex;
+    justify-content: space-between;
+     align-items: center; 
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar h2 {
+    font-family: 'Segoe UI';
+    color: white;
+    width: 200px;
+    margin-right: auto;
+}   
+
+#navbar .cta-button {
+    background-color: purple;
+    color: gold;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#hero-1 {
+    background-image: url("../images/Chicken-burrito-wrap.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero-1 h1 {
+    font-size: 60px;
+    position: absolute;
+    left: 20px;
+}
+
+#hero-1 h2 {
+    font-size: 50px;
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+}
+
+#hero-1 a {
+    font-size: 20px;
+    display: inline-block;
+    background-color: purple;
+    color: gold;
+    text-decoration: none;
+    padding: 24px;
+    position: absolute;
+    left: 20%;
+    bottom: 41%;
+    font-weight: bold;
+    text-align: center;
+}
