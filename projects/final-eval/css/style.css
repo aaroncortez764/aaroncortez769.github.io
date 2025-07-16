@@ -5,5 +5,37 @@
 body {
     margin: 0px;
     font-family: sans-serif;
+    background-color: orange;
 }
 
+.single-column {
+    background-image: url("../images/Football-Field.jpg");
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.single-column h3 {
+    color: white;
+    font-family: Tinos;
+    text-align: center;
+    font-size: 30px;
+}
+
+.single-column img {
+    width: 150px;
+    padding: 24px;
+    margin: 24px;
+    
+}
+
+.single-column h1 {
+    color: white;
+    text-align: center;
+}
+
+.single-column h2 {
+    color: white;
+    display: inline-block;
+    width: 100px;
+}
