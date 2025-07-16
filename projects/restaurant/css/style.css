@@ -110,11 +110,14 @@ body {
 }
 
 .single-column {
-    width: 50%;
-    min-width: 500px;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
 }
 
 .single-column h1 {
